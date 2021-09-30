@@ -12,12 +12,65 @@
         <nav>
           <a href="about.html">About</a>
         </nav>
+          <a href="#cats">Cats</a>
     </header>
     <main>
-      <img src="images/kitten.jpg" alt="kitten sleeping on a blanket" width="400" title="Cute kitten"/>
+      <img src="images/kitten.jpg" alt="kitten sleeping on a blanket" width="1000" title="Cute kitten"/>
       <article>
         <a href="https://google.ca" target="_blank">Google</a>
       </article>
+      <article id="cats">
+        <p>Things my cat does to keep me up</p>
+        <ul>
+          <li>Scratches at the door</li>
+          <li>Attacks my feet</li>
+          <li>Chase the other cats</li>
+        </ul>
+      </article>
+      <form action="index.html" method="get">
+        <p>
+          <label for="username">Name:</label>
+          <input id="username">
+        </p>
+        <p>
+          <label for="password">Password:</label>
+          <input id="password">
+        </p>
+        <p>
+          <label for="col">Pick a color:</label>
+          <input id="col" type="color" name="color">
+        </p>
+        <p>
+          <label for="num">Pick a number:</label>
+          <input id="num" type="range" name="num" value="4">
+        </p>
+        <p>
+          <label for="info">Enter the info</label>
+          <textarea id="info" name="info"></textarea>
+        </p>
+        <p>
+          <label for="fruit">Pick a frut</label>
+          <select id="fruit" name="fruit">
+            <option>Banana</option>
+            <option>Strawberry</option>
+            <option>Pineapple</option>
+          </select>
+        </p>
+        <p>
+          <label for="spam">Spam me:</label>
+          <input type="checkbox" id="spam" name="spam" checked>
+        </p>
+        <p>
+          <span>Do you like dogs:</span>
+          <label for="yes">Yes!</label>
+          <input type="radio" id="yes" name="dogs" value="yes">
+          <label for="no">No!</label>
+          <input type="radio" id="no" name="dogs" value="no">
+        </p>
+        <p>
+          <button type="submit" name="submit">Submit!</button>
+        </p>
+      </form>
     </main>
     <footer>
         <article>&copy; Somebody, Somewhere, 2021</article>
